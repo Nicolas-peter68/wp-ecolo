@@ -1,10 +1,10 @@
-<?php get_header(); ?>
-<h1><?php the_title(); ?></h1>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<div class="vh-100" id="wall"></div>
-<!-- <section class="cover">
-<h1>Bienvenue sur le blog de la promo</h1>
-</section> -->
+<?php get_header(); ?>
+<div class="wall vh-100 d-flex justify-content-center align-items-center" id="wall">
+    <h1>Les bons gestes</h1>
+</div>
+
+<div class="container">
 <div class="row">
     
 		<?php

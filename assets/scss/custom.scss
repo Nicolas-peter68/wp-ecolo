@@ -1,1 +1,14 @@
 @import "../bootstrap/scss/bootstrap";
+@import"palette";
+#wall{
+    background-image: url(../../img/forest_wallpaper.jpg);
+    background-size: cover;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: none;
+}
+.navbar a{
+    color: $écolo-2-hex;
+}

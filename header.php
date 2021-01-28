@@ -9,8 +9,8 @@
 <body <?php body_class(); ?>>
     
     <?php wp_body_open(); ?>
-    <header class="site__header">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" role="navigation">
+    <header>
+    <nav class="navbar navbar-expand-md navbar-success" role="navigation">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
 				<span class="navbar-toggler-icon"></span>
@@ -32,4 +32,3 @@
 		
 		</nav>
   </header>
-	<div class="container mt-5">

@@ -9928,3 +9928,20 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+#wall {
+  background-image: url(../../img/forest_wallpaper.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: none;
+}
+
+.navbar a {
+  color: #56D14D;
+}

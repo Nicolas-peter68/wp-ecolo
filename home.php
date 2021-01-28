@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="container">
     <h1>Hello Home</h1>
     <p>bonjour !</p>
 

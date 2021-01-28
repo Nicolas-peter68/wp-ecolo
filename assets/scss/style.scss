@@ -1,3 +1,7 @@
+@import"palette";
 h1{
-    color: blue;
+    color: $écolo-2-hex;
+}
+body{
+    background-color: $écolo-1-hex;
 }

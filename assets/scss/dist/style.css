@@ -1,3 +1,10 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
 h1 {
-  color: blue;
+  color: #56D14D;
+}
+
+body {
+  background-color: #093806;
 }
