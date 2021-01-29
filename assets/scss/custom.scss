@@ -5,10 +5,21 @@
     background-size: cover;
 }
 .navbar{
-    position: fixed;
     width: 100%;
-    background: none;
+    background: $écolo-4-hex;
+    z-index: 10;
 }
 .navbar a{
     color: $écolo-2-hex;
+}
+.pagination{
+    display: inline !important;
+}
+
+.nav-links a{
+    color: blueviolet;
+    text-decoration: none !important;
+    & :focus{
+        outline: none !important;
+    }
 }

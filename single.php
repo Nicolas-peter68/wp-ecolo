@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="container">
 <h1><?php the_title(); ?></h1>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <article class="post">
@@ -14,23 +15,6 @@
             </div>
             <div class="post__content">
                 <?php the_content(); ?>
-            </div>
-            <p>
-                <strong>Avis :</strong>
-                <?php echo get_post_meta(get_the_ID(), 'avis', true); ?>
-            </p>
-            <p>
-                <strong>Note :</strong>
-                <?php echo get_post_meta(get_the_ID(), 'note', true); ?> / 10
-            </p>
-            <div class="plus-moins">
-                <div class="plus">
-                    <?php echo get_post_meta(get_the_ID(), 'plus', true); ?>
-                </div>
-                <div class="plus">
-                    <?php echo get_post_meta(get_the_ID(), 'moins', true); ?>
-                </div>
-
             </div>
             <?php comment_form($args); // Par ici les commentaires?> 
             

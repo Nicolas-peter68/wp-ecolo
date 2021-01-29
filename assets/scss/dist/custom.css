@@ -9937,11 +9937,23 @@ h3 {
 }
 
 .navbar {
-  position: fixed;
   width: 100%;
-  background: none;
+  background: #2C452A;
+  z-index: 10;
 }
 
 .navbar a {
   color: #56D14D;
+}
+
+.pagination {
+  display: inline !important;
+}
+
+.nav-links a {
+  color: blueviolet;
+  text-decoration: none !important;
+}
+.nav-links a :focus {
+  outline: none !important;
 }

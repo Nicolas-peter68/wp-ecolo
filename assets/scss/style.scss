@@ -1,7 +1,53 @@
 @import"palette";
-h1{
-    color: $écolo-2-hex;
+h1,h2,h3{
+    color: $écolo-5-hex;
+}
+p{
+   color: $écolo-2-hex; 
 }
 body{
-    background-color: $écolo-1-hex;
+    background-color: $écolo-4-hex;
+}
+
+footer nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+footer nav ul{
+    padding-left: 0;
+    margin: 0 auto;
+    width: 100%;
+    & li{
+        display: inline;
+        padding-right: 30px;
+        & a
+        {
+            color:$écolo-5-hex;
+        }
+    }
+}
+.navigation{
+    text-align: center;
+    color: $écolo-5-hex;
+}
+
+.page-numbers{
+    border: black solid 1px;
+    border-radius: 20px;
+    //margin: 1px;
+    padding: 5px;
+    background-color: $écolo-3-rgba;
+    & :focus{
+        outline: none;
+    }
+    & :hover{
+        text-decoration: none;
+    }
+}
+.site__navigation h2{
+    display: none;
 }

@@ -1,10 +1,57 @@
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
-h1 {
+h1, h2, h3 {
+  color: #168A0E;
+}
+
+p {
   color: #56D14D;
 }
 
 body {
-  background-color: #093806;
+  background-color: #2C452A;
+}
+
+footer nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+footer nav ul {
+  padding-left: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+footer nav ul li {
+  display: inline;
+  padding-right: 30px;
+}
+footer nav ul li a {
+  color: #168A0E;
+}
+
+.navigation {
+  text-align: center;
+  color: #168A0E;
+}
+
+.page-numbers {
+  border: black solid 1px;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #1db812;
+}
+.page-numbers :focus {
+  outline: none;
+}
+.page-numbers :hover {
+  text-decoration: none;
+}
+
+.site__navigation h2 {
+  display: none;
 }
