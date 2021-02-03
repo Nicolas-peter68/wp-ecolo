@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <?php wp_head(); ?>
 </head>
-
 <body <?php body_class(); ?>>
-    
     <?php wp_body_open(); ?>
     <header>
+	<!--
     <nav class="navbar navbar-expand-md" role="navigation">
-			<!-- Brand and toggle get grouped for better mobile display -->
 			<button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a class="navbar-brand" href="#"><?php bloginfo('name') ?></a>
+			<a class="navbar-brand" href="<?= home_url('/')?>"><?php bloginfo('name') ?></a>
             <?php
-            //get_search_form();
+
 			wp_nav_menu(array(
 				'theme_location'    => 'main',
 				'depth'             => 2,
@@ -30,5 +28,5 @@
 			));
 			?>
 		
-		</nav>
+		</nav>-->
   </header>

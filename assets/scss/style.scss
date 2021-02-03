@@ -3,6 +3,10 @@ h1,h2,h3{
     color: $écolo-5-hex;
     font-family: "roboto",sans-serif;
 }
+.titre{
+    color:white;
+    font-size: 55px;
+}
 p{
    color: $écolo-2-hex;
    font-family: "spartan",sans-serif;
@@ -53,7 +57,35 @@ footer nav ul{
 .site__navigation h2{
     display: none;
 }
-img {
+img:not(.arrow) {
     width: 100%;
     height: auto;
   }
+
+.arrow{
+    position: absolute;
+    bottom: 100px;
+}
+
+.move {
+    -moz-animation: move 2s infinite;
+    -webkit-animation: move 2s infinite;
+    animation: move 2s infinite;
+}
+@keyframes move{
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-60px);
+      }
+      60% {
+        transform: translateY(-30px);
+      }
+}
+
+@media screen and (max-width:400px){
+    .titre{
+        font-size: 40px;
+    }
+}
