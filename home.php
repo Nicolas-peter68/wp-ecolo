@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 <div class="container">
-  <h1>Hello Home</h1>
-  <p>bonjour !</p>
-
+  <h1>Articles comming soon !</h1>
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <div class="jumbotron">
         <h1><?php the_title(); ?></h1>
@@ -13,7 +11,7 @@
         </p>
         <hr class="my-4">
         <p><?php the_excerpt(); ?></p>
-        <a class="btn btn-primary btn-lg" href="<?php the_permalink(); ?>" role="button">Lire la suite</a>
+        <a class="btn btn-success" href="<?php the_permalink(); ?>" role="button">Lire la suite</a>
       </div>
 
   <?php endwhile;

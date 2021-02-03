@@ -9944,6 +9944,7 @@ h3 {
 
 .navbar a {
   color: #56D14D;
+  font-family: "spartan", sans-serif !important;
 }
 
 .pagination {
@@ -9951,9 +9952,21 @@ h3 {
 }
 
 .nav-links a {
-  color: blueviolet;
+  font-family: "spartan", sans-serif;
   text-decoration: none !important;
 }
 .nav-links a :focus {
   outline: none !important;
+}
+
+.jumbotron {
+  background-color: #093806;
+}
+
+.navbar-toggler {
+  border-color: #56D14D;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(86,209,77, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }

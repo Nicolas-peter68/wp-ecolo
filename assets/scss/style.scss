@@ -1,9 +1,11 @@
 @import"palette";
 h1,h2,h3{
     color: $écolo-5-hex;
+    font-family: "roboto",sans-serif;
 }
 p{
-   color: $écolo-2-hex; 
+   color: $écolo-2-hex;
+   font-family: "spartan",sans-serif;
 }
 body{
     background-color: $écolo-4-hex;
@@ -37,7 +39,7 @@ footer nav ul{
 
 .page-numbers{
     border: black solid 1px;
-    border-radius: 20px;
+    border-radius: 10px;
     //margin: 1px;
     padding: 5px;
     background-color: $écolo-3-rgba;
@@ -51,3 +53,7 @@ footer nav ul{
 .site__navigation h2{
     display: none;
 }
+img {
+    width: 100%;
+    height: auto;
+  }

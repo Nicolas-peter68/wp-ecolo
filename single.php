@@ -16,7 +16,7 @@
             <div class="post__content">
                 <?php the_content(); ?>
             </div>
-            <?php comment_form($args); // Par ici les commentaires?> 
+            <?php comments_template(); // Par ici les commentaires?> 
             
         </article>
 <?php endwhile;

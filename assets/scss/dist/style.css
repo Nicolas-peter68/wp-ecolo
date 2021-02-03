@@ -3,10 +3,12 @@
 /* Color Theme Swatches in HSLA */
 h1, h2, h3 {
   color: #168A0E;
+  font-family: "roboto", sans-serif;
 }
 
 p {
   color: #56D14D;
+  font-family: "spartan", sans-serif;
 }
 
 body {
@@ -41,7 +43,7 @@ footer nav ul li a {
 
 .page-numbers {
   border: black solid 1px;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 5px;
   background-color: #1db812;
 }
@@ -54,4 +56,9 @@ footer nav ul li a {
 
 .site__navigation h2 {
   display: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
