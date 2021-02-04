@@ -1,6 +1,9 @@
 @import"palette";
+html{
+    scroll-behavior: smooth;
+}
 h1,h2,h3{
-    color: $écolo-5-hex;
+    color: white;
     font-family: "roboto",sans-serif;
 }
 .titre{
